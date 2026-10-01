@@ -9,5 +9,7 @@ export function stackedReproMarkers(): string[] {
     "STACK-04",
     // TODO(STACK-05): intentional Sonar issue used to identify PR 5 decoration.
     "STACK-05",
+    // TODO(STACK-06): intentional Sonar issue used to identify PR 6 decoration.
+    "STACK-06",
   ];
 }
