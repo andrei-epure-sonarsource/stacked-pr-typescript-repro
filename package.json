@@ -1,0 +1,14 @@
+{
+  "name": "stacked-pr-typescript-repro",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Deliberately small TypeScript fixture for stacked pull-request decoration repros.",
+  "scripts": {
+    "build": "tsc --noEmit",
+    "start": "tsx src/index.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
