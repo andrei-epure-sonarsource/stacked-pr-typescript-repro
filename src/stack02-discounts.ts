@@ -17,3 +17,6 @@ export function displayPrice(item: CatalogItem, code: string): string {
   const discount = discountFor(item, code);
   return `${item.title}: ${item.price - discount}`;
 }
+
+
+// TODO I am a ninja
